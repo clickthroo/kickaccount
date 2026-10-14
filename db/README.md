@@ -6,7 +6,7 @@ KickAccount touches two Postgres databases. Migrations are applied by hand
 | Folder | Database | What it does |
 |---|---|---|
 | `kickio/` | Kickio (`rlveellvebfzgyobceru`) | Read-only interface: the `kickaccount` schema of views, and the `kickaccount_reader` role that can only read them. **Additive only. Never alters Kickio tables.** |
-| `accounting/` | KickAccount (its own Supabase project) | The `accounting` schema: users/roles, landed-cost ledger, valuation snapshots, audit log, and the `kickaccount_app` role. |
+| `accounting/` | KickAccount (`qxnrdnstvkvvnuidpiax`) | The `accounting` schema: users/roles, landed-cost ledger, valuation snapshots, audit log, and the `kickaccount_app` role. |
 
 ## Role passwords
 
